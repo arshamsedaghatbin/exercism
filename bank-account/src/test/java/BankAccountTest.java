@@ -131,7 +131,6 @@ public class BankAccountTest {
         bankAccount.deposit(5);
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void cannotWithdrawMoneyFromClosedAccount() throws BankAccountActionInvalidException {
         bankAccount.open();
